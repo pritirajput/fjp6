@@ -25,6 +25,6 @@ let flag = true;
         console.log("prime number");
     }
     else {
-        console.log("number is  gitnot prime");
+        console.log("number is  not prime");
     }
 
