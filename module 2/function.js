@@ -29,3 +29,7 @@ console.log(a(5,3));
     let num=num1/num2;
     console.log(num);
 })(15,3);
+(function(num1,num2,num3){
+    let num=(num1+num2)/num3;
+    console.log(num);
+})(20,30,5)
