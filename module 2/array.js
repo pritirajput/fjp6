@@ -16,3 +16,16 @@ let arr2 = [2,8,5,"value",9,"end"];
 arr2.push ("push");
 arr2.push (3);
 console.log(arr2);
+
+console.log("pop method");
+arr2.pop();
+console.log(arr2);
+
+console.log("shift method");
+arr2.shift();
+console.log(arr2);
+ 
+console.log("unshift method");
+arr2.unshift("new value");
+console.log(arr2);
+
