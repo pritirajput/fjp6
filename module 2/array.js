@@ -28,4 +28,8 @@ console.log(arr2);
 console.log("unshift method");
 arr2.unshift("new value");
 console.log(arr2);
+ 
+console.log("length");
+let len = arr2.length;
+console.log(len);
 
