@@ -29,7 +29,7 @@ console.log("unshift method");
 arr2.unshift("new value");
 console.log(arr2);
  
-console.log("length");
+console.log(" find array length");
 let len = arr2.length;
 console.log(len);
 
