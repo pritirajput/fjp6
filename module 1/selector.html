@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<h1>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         /* universal selector*/
+        *{
+           background-color: darkseagreen;
+         }
+        /* div selector*/
+        div{
+            color: brown;
+        }
+        /*class selector*/
+        .container{
+            font-style: italic;
+        }
+        .container2{
+            font-size: large;
+        }
+        /*id selector or a unique selector*/
+        #one{
+            font-variant-caps: all-petite-caps;
+        }
+        /*gropping*/
+        .one, .two, .three , #one{
+            background-color: rgb(119, 31, 112);
+
+        }
+        /*multiple class selector*/
+        .container.container2{
+            color: rgb(0, 109, 128);
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         At rem obcaecati similique vitae nulla! Possimus vel odit
+          magnam veritatis. Corporis voluptas sapiente voluptatum 
+          voluptatibus tempora quibusdam, reiciendis velit iste illum.
+    </p>
+    <div class="container">
+        <h1>Heading inside div</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             At rem obcaecati similique vitae nulla! Possimus vel odit
+              magnam veritatis. Corporis voluptas sapiente voluptatum 
+              voluptatibus tempora quibusdam, reiciendis velit iste illum.
+        </p> 
+    </div>
+    <div id="one">
+        <h3>Heading 3 inside div</h3>
+    </div>
+    <h3>heading 3</h3>
+    <a class="container" href="#">click for link</a>
+    <h6>Heading</h6>
+    <p class="container2">This is a pagraph in which apply a class container 2</p>
+    <p class="container container2">This is a pagraph in which apply 
+        both class container and container2 
+    </p>
+    <h2>Gropping</h2>
+
+     <a class="one" href="#">click me</a>
+    <h5 class="two">Heading</h5>
+    <p class="three">This is a pagraph in which apply a class </p>
+
+</body>
+</html>
