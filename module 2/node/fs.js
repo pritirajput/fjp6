@@ -1,7 +1,7 @@
 let fs = require("fs");
 //console.log(fs);
 let path = require("path");
-let filePath = path.join(__dirname,"file.txt");
+/*let filePath = path.join(__dirname,"file.txt");
 console.log(filePath);
 
 //if file is not exist then write a file in new file
@@ -20,4 +20,14 @@ console.log("After update : ");
 console.log(fs.readFileSync(filePath,"utf-8"));
 
 //D-delete a file
-fs.unlinkSync(filePath);
+fs.unlinkSync(filePath);*/
+
+//copy a file
+
+let sourecPath = path.join(__dirname,"file.txt")
+let destinationPath = path.join(__dirname,"module","file.txt")
+console.log(sourecPath);
+console.log(destinationPath);
+//fs.copyFileSync(sourecPath,destinationPath);
+
+
